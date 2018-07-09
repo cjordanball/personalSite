@@ -1,0 +1,9 @@
+{
+  "name": "personalSite",
+  "version": "1.0.0",
+  "description": "A website for C. Jordan Ball III, of Ball Web Development, LLC",
+  "main": "index.js",
+  "repository": "git@github.com:cjordanball/personalSite.git",
+  "author": "Jordan Ball <jordan@cjordanball.info>",
+  "license": "MIT"
+}
