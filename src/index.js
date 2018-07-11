@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import styles from './styles/main.css';
+import styles from './styles/styles.less';
 import GCW from './components/gcw';
 
 const gcw = GCW();
