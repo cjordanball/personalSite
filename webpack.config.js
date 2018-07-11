@@ -23,11 +23,23 @@ module.exports = {
                 ]
             },
             {
-                test: /\.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader, 'css-loader'
-                ]
-            }
+                test: /\.less$/,
+                use: [{
+                    loader: 'style-loader'
+                },
+                {
+                    loader: 'css-loader'
+                },
+                {
+                    loader: 'less-loader'
+                }]
+            },
+            // {
+            //     test: /\.css$/,
+            //     use: [
+            //         MiniCssExtractPlugin.loader, 'css-loader'
+            //     ]
+            // }
         ]
     },
     plugins: [
@@ -35,9 +47,9 @@ module.exports = {
             template: './index.html',
             filename: './index.html'
         }),
-        new MiniCssExtractPlugin({
-            filename: '[name].css',
-            chunkFilename: '[id].css'
-        })
+        // new MiniCssExtractPlugin({
+        //     filename: '[name].css',
+        //     chunkFilename: '[id].css'
+        // })
     ]
 };
