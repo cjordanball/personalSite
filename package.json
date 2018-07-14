@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production && cp -r ./src/assets/fonts ./dist/src/assets"
   },
   "repository": "git@github.com:cjordanball/personalSite.git",
   "author": "Jordan Ball <jordan@cjordanball.info>",
