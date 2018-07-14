@@ -36,16 +36,23 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif|ico)$/,
-                use: [
-                    'file-loader'
-                ]
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: 'src/assets/images/[name].[ext]'
+                    }
+                }]
+            },
+            {
+                test: /\.ttf$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'src/assets/fonts/'
+                    }
+                }]
             }
-            // {
-            //     test: /\.css$/,
-            //     use: [
-            //         MiniCssExtractPlugin.loader, 'css-loader'
-            //     ]
-            // }
         ]
     },
     plugins: [
@@ -53,10 +60,6 @@ module.exports = {
             template: './index.html',
             filename: './index.html',
             favicon: 'src/assets/images/ballIcon.ico'
-        }),
-        // new MiniCssExtractPlugin({
-        //     filename: '[name].css',
-        //     chunkFilename: '[id].css'
-        // })
+        })
     ]
 };
