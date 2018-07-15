@@ -4,8 +4,7 @@ import styles from './styles/styles.less';
 import GCW from './components/gcw';
 import './assets/images/ballIcon.ico';
 
-const gcw = GCW();
 
 ReactDOM.render(
-    gcw, document.querySelector('#root')
+    <GCW />, document.querySelector('#root')
 );
