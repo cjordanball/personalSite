@@ -8,16 +8,21 @@
 }
 
 img {
-    height: 400px;
+    width: 100vw;
+    max-width: 800px;
 }
 
 .GCW {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
-
+.top-caption {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
 .leader {
     color: navy;
+    font-size: 24pt;
     font-style: italic;
     margin-top: 50px;
     text-align: center;
@@ -30,4 +35,22 @@ img {
     font-size: 48pt;
     margin: 0;
     text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .headline {
+        font-size: 24pt;
+    }
+    .leader {
+        font-size: 12pt;
+        margin-top: 25px;
+    }
+    .GCW {
+        margin-top: 25px;
+    }
+    .top-caption {
+        font-size: 1em;
+        margin-bottom: 25px;
+    }
 }
