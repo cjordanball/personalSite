@@ -6,7 +6,7 @@ const GCW = () => (
     <div>
         <Header />
         <div className ="GCW">
-            <h1>Hello, Seattle!</h1>
+            <div className='top-caption'>Hello, Seattle!</div>
             <img alt="Seattle Skyline" id="seattle001" src={ seattle001 } />
         </div>
     </div>
