@@ -1,16 +1,16 @@
 const targetList = [
-    {
-        name: 'google',
-        href: 'https://google.com',
-    },
-    {
-        name: 'Ball Web Development, LLC',
-        href: 'https://www.ballwebdev.com'
-    },
-    {
-        name: 'test3',
-        href: 'url'
-    }
-]
+	{
+		name: 'google',
+		href: 'https://google.com'
+	},
+	{
+		name: 'Ball Web Development, LLC',
+		href: 'https://www.ballwebdev.com'
+	},
+	{
+		name: 'See Resume',
+		href: 'url'
+	}
+];
 
-export { targetList };
+export default targetList;
