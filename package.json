@@ -30,12 +30,12 @@
     "prop-types": "^15.6.2",
     "style-loader": "^0.21.0",
     "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+	"webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "less": "^3.6.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "webpack-dev-server": "^3.1.4"
+    "react-dom": "^16.4.1"
   }
 }
