@@ -8,9 +8,7 @@ const Root = () => (
 			<a href="https://www.ballwebdev.com">Click here for Ball Web Development, LLC</a>
 		</div>
 		<div>
-			<a href="/src/assets/documents/201812Resume.pdf" download="CJBResume">Click to download a current resume (12/2018)</a>
-		</div>
-		<div className="GCW">
+			<a href="/assets/documents/201812Resume.pdf" download>Click to download a current resume (12/2018)</a>
 		</div>
 	</div>
 );
